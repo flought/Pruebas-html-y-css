@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web Pokémon</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="shortcut icon" href="images/pokeball.ico" type="image/x-icon">
+</head>
+<body>
+    <div>
+        <h1>Toda la información acerca de pokemon</h1>
+    </div>
+
+    <div class="main-container">
+        <h2>Origen de Pokémon</h2>
+        <div class="content-container">
+            <p>
+                La idea principal fue desarrollada por <a class="external-link" href="">Satoshi Tajiri</a>, un joven adolescente que le fascinaban los insectos y la naturaleza. En estos gustos se basó para crear el videjuego conocido hoy en día como <a class="external-link" href="">Pokémon</a>. Fue ayudado por <a class="external-link" href="">Ken Sugimori</a>, un artista reconocido dibujante japonés. Tras desarrollar la idea en un proyecto, decidieron venderlo a la compañía de <a class="external-link" href="">Nintendo</a>. El desarrollo del proyecto duró unos 5 años. Durante este periodo, el uso de la consola Game Boy fue decayendo debido a las escasas producciones de videjuegos para estas consolas. Viendo la situación, Tajiri decidió renombrar el videojuego, tan solo tuvo que pasar un año para que las ventas superasen el millón de ventas. La directiva de Nintendo al darse cuenta de este crecimiento, decidió expandir las ventas a occidente. <br>
+                Pasados los años hasta la actualidad, debido a su fama se fueron creando diferentes versiones, mangas, películas, merchandising, etc.
+            </p>
+        </div>
+
+        <h2>¿Qué es Pokémon?</h2>
+        <div class="content-container">
+            <p>
+                <a class="external-link" href="">Pokémon</a> es un mundo de criaturas en los que los entrenadores se encargande capturarlas, entrenarlas y fortalecerlas para llegar a ser el mejor entrenador. Se realizan combates con varios pokemons y se van obteniendo diferentes cosas.
+            </p>
+            <!-- MODIFICAR WIDTH Y POSICIÓN EN CSS -->
+            <img src="images/logo-pokemon.png" alt="Logo Pokemon">
+        </div>
+    </div> <!-- Fin main-container -->
+
+    <div class="secondary-content">
+        <h3>Funcionamiento del videojuego</h3>
+        <p>
+            El usuario es un <a href="#entrenador">entrenador</a> que deberá de ir completando la <a class="external-link" href="">Pokédex</a> con cada captura de todos los pokemons. Estos van subiendo de nivel a través de la experiencia obtenida en cada combate o aventura vivida con el entrenador. Para obtener nuevos pokemons, el entrenador se irá desplazando por cada pueblo de cada <abbr title="Lugar en el que se ambienta cada videojuego">región</abbr>. Todo esto ocurre durante una historia. Al comienzo de cada historia tendrás que elegir 1 de entre 3 pokemons iniciales, este será el que te acompañe durante toda la aventura. Siempre son del mismo <a href="#tipo">tipo</a>, agua, fuego y planta.
+        </p>
+
+        <h3>Ediciones o generaciones</h3>
+        <p>
+            Las ediciones o generaciones son las múltiples versiones del videojuego disponibles y lanzadas al mercado. Cada una de ellas tiene pokemons exclusivos. Según se han ido creando y mejorando, muchos de los pokemons creados se han incluido en versiones posteriores, manteniendo así los ya creados y aumentando la siguiente versión con nuevas criaturas. <br>
+            Actualmente existen 9 generaciones, pero como en muchos otros videojuegos existen <a href="#">versiones especiales</a>.
+        </p>
+
+        <div class="generation-container">
+            <div class="generation-item">
+                <h4>Generación 1</h4>
+                <img src="images/maps/kanto.webp" alt="Región de Kanto" title="Kanto">
+                <p>Región de Kanto</p>
+            </div>
+            <div class="generation-item">
+                <h4>Generación 2</h4>
+                <img src="images/maps/johto.webp" alt="Región de Johto" title="Johto">
+                <p>Región de Johto</p>
+            </div>
+            <div class="generation-item">
+                <h4>Generación 3</h4>
+                <img src="images/maps/hoenn.jpeg" alt="Región de Hoenn" title="Hoenn">
+                <p>Región de Hoenn</p>
+            </div>
+        </div>
+
+        <div class="generation-container">
+            <div class="generation-item">
+                <h4>Generación 4</h4>
+                <img src="images/maps/sinnoh.jpeg" alt="Región de Sinnoh" title="Sinnoh">
+                <p>Región de Sinnoh</p>
+            </div>
+            <div class="generation-item">
+                <h4>Generación 5</h4>
+                <img src="images/maps/teselia.jpg" alt="Región de Teselia" title="Teselia">
+                <p>Región de Teselia</p>
+            </div>
+            <div class="generation-item">
+                <h4>Generación 6</h4>
+                <img src="images/maps/kalos.jpeg" alt="Región de Kalos" title="Kalos">
+                <p>Región de Kalos</p>
+            </div>
+        </div>
+
+        <div class="generation-container">
+            <div class="generation-item">
+                <h4>Generación 7</h4>
+                <img src="images/maps/alola.jpeg" alt="Región de Alola" title="Alola">
+                <p>Región de Alola</p>
+            </div>
+            <div class="generation-item">
+                <h4>Generación 8</h4>
+                <img src="images/maps/galar.png" alt="Región de Galar" title="Galar">
+                <p>Región de Galar</p>
+            </div>
+            <div class="generation-item">
+                <h4>Generación 9</h4>
+                <img src="images/maps/paldea.jpg" alt="Región de Paldea" title="Paldea">
+                <p>Región de Paldea</p>
+            </div>
+        </div>
+
+        <h3>Lugares y edificios</h3>
+        <p>
+            Existen muchísimos lugares (rutas, lagunas, montes, etc) como edificios (centros pokemon, gimnasios, centros comerciales, etc) para visitar en cualquier región. En la gran mayoría se puede interacturar con NPC que pueden o no aportar información relevante sobre la historia. <br>
+            Los edificios más destacados son:
+        </p>
+        <!-- AGREGAR LISTAS DE DEFINICIÓN SOBRE LOS EDIFICIOS -->
+        <img src="images/edificios/" alt="Casas comunes">
+        <img src="images/edificios/" alt="Centros pokemon">
+        <img src="images/edificios/" alt="Gimnasios">
+
+        <!-- AGREGAR LISTAS DE DEFINICIÓN SOBRE LOS LUGARES -->
+        <img src="images/lugares/" alt="Rutas">
+        <img src="images/lugares/" alt="Montes">
+        <img src="images/lugares/" alt="Cuevas">
+        <img src="images/lugares/" alt="Lagos y lagunas">
+        <img src="images/lugares/" alt="Subsuelo">
+
+        <h3>Personajes y objetos dentro del juego</h3>
+
+        <h4>Personajes</h4>
+        <p>
+            Existen diferentes personajes en el videojuego, desde principales hasta secundarios. En versiones antiguas prácticamente todos los personajes eran NPCs, pero con el tiempo se ha ido implementando la funcionalidad "multijugador online" y hace referencia al poder contectarse junto a otros usuarios a través de la red; algunas acciones de las que se pueden hacer son vivir aventuras, combatir, intercambiar pokemons entre otras. <br>
+            Entre estos personajes los más destacados son:
+        </p>
+
+        <ul>
+            <li>Personaje inicial</li>
+            <li>Aldeano/a</li>
+            <li>Entrenador pokemon</li>
+            <li>Líder de gimnasio</li>
+            <li>Enfermero/a</li>
+            <li>Profesores</li>
+        </ul>
+
+        <h4>Objetos</h4>
+
+        <p>
+            Los objetos son útiles que ayudan a los entrenadores y pokemons a realizar acciones como sanar, aumentar PS, huir de combates y lugares, enseñar movimientos, etc. <br>
+            Los objetos más reconocidos son las pokeball, herramientas usadas para capturar pokemons a lo largo de la aventura, pero existen otros muchos objetos nombrados a continuación.
+        </p>
+
+        <table class="object-table">
+            <thead>
+                <tr>
+                    <th>Objeto</th>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Ratio de captura</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="12">Pokeballs</td>
+                    <td>Poké ball</td>
+                    <td>Es la pokeball más básica con el rango de captura más bajo</td>
+                    <td>x1</td>
+                    <td><img src="images/pokeballs/pokeball.png" alt="Poké ball"></td>
+                </tr>
+                <tr>
+                    <td>Superball</td>
+                    <td>Se mejora levementa la efectividad frente a la pokeball</td>
+                    <td>x1.5</td>
+                    <td><img src="images/pokeballs/superball.png" alt="Superball"></td>
+                </tr>
+                <tr>
+                    <td>Ultraball</td>
+                    <td>Se mejora levementa la efectividad frente a la ultraball</td>
+                    <td>x2</td>
+                    <td><img src="images/pokeballs/ultraball.png" alt="Ultraball"></td>
+                </tr>
+                <tr>
+                    <td>Masterball</td>
+                    <td>Asegura la captura de un pokemon en un 99.9%</td>
+                    <td>x255</td>
+                    <td><img src="images/pokeballs/masterball.png" alt="Masterball"></td>
+                </tr>
+                <tr>
+                    <td>Safariball</td>
+                    <td>El uso es exclusivo en la zona Safari Pokemon</td>
+                    <td>x1.5</td>
+                    <td><img src="images/pokeballs/safariball.png" alt="Safariball"></td>
+                </tr>
+                <tr>
+                    <td>Sanaball</td>
+                    <td>El uso es similiar al de una pokeball con la diferencia de esta cura todos los PS del pokemon capturado</td>
+                    <td>x1</td>
+                    <td><img src="images/pokeballs/sanaball.png" alt="Sanaball"></td>
+                </tr>
+                <tr>
+                    <td>Ocasoball</td>
+                    <td>Su efectividad aumenta en cuevas o cuando el tiempo es nocturno</td>
+                    <td>3<sup>4</sup></td>
+                    <td><img src="images/pokeballs/ocasoball.png" alt="Ocasoball"></td>
+                </tr>
+                <tr>
+                    <td>Nidoball</td>
+                    <td>Aumenta su efectividad contra más bajo sea el nivel del pokemon</td>
+                    <td>(40 - nivel de pokemon) / 10</td>
+                    <td><img src="images/pokeballs/nidoball.png" alt="Nidoball"></td>
+                </tr>
+                <tr>
+                    <td>Mallaball</td>
+                    <td>La efectividad aumenta cuando se captura a un pokemon de tipo bicho o agua</td>
+                    <td>3,5<sup>2</sup></td>
+                    <td><img src="images/pokeballs/mallaball.png" alt="Mallaball"></td>
+                </tr>
+                <tr>
+                    <td>Buceoball</td>
+                    <td>Aumenta la posobilidad y efectividad de capturar a un pokemon cuando se usa el movimiento buceo</td>
+                    <td>3,5<sup>3</sup></td>
+                    <td><img src="images/pokeballs/buceoball.png" alt="Buceoball"></td>
+                </tr>
+                <tr>
+                    <td>Velozball</td>
+                    <td>Es más efectiva en el primer turno de captura</td>
+                    <td>5<sup>5</sup></td>
+                    <td><img src="images/pokeballs/velozball.png" alt="Velozball"></td>
+                </tr>
+                <tr>
+                    <td>Turnoball</td>
+                    <td>Según pasen los turnos del combate aumentará su efectividad</td>
+                    <td>(Turnos + 10) / 10</td>
+                    <td><img src="images/pokeballs/turnoball.png" alt="Turnoball"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="object-table">
+            <thead>
+                <tr>
+                    <th>Objeto</th>
+                    <th>Nombre</th>
+                    <th>Uso / Descripción</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4">Pociones</td>
+                    <td>Poción</td>
+                    <td>Restaura al pokemon al que se le aplique 20 PS</td>
+                    <td><img src="" alt="Poción"></td>
+                </tr>
+                <tr>
+                    <td>Superpoción</td>
+                    <td>Restaura al pokemon al que se le aplique 60 PS</td>
+                    <td><img src="" alt="Superpoción"></td>
+                </tr>
+                <tr>
+                    <td>Hiperpoción</td>
+                    <td>Restaura al pokemon al que se le aplique 120 PS</td>
+                    <td><img src="" alt="Hiperpoción"></td>
+                </tr>
+                <tr>
+                    <td>Max. Poción</td>
+                    <td>Restaura al pokemon al que se le aplique todos los PS</td>
+                    <td><img src="" alt="Max. Poción"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div> <!-- Fin secondary-content -->
+
+</body>
+</html>
